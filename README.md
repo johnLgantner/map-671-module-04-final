@@ -24,7 +24,9 @@
 
 ## Index.html link
 
-The final project is worth 400 points. The points are assigned as follows.
+* The link to my index:
+
+![access index](Final Website and Index/index.html)
 
 ### Projection Information
 
