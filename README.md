@@ -26,7 +26,7 @@
 
 * The link to my index:
 
-![access index](Final Website and Index/index.html)
+![access index](index/index.html)
 
 ### Projection Information
 
