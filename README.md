@@ -13,12 +13,12 @@
 * The creation of this data project was fairly simple.
 
 * First, I uploaded the georeferenced data into qgis
-![Folder View](Project Markdown Files/Insert Delimited.png)
+![Folder View](graphics/Insert-Delimited.png)
 
 * Then, I essentially just utilized symbology and surface level analysis to create the map.
 
 * I did utilize the clipping georeference tool to get all of my point data confined to the DRC. This tool is dsiplayed here:
-![Folder View](Project Markdown Files/Clipping Georeference.png)
+![Folder View](graphics/Clipping-Georeference.png)
 
 
 
