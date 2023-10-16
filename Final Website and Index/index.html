@@ -112,53 +112,45 @@
     @media screen and (max-width: 800px) {
       .first-column,
       .column {
-        width: 100%;
+        width: 25%;
       }
     }
   </style>
 </head>
 
-<body>
-  <!-- Add map to top of page and make it stretch to fill browser window. -->
-  <img class="max-image-width" src="path/to/image.png">
+
 
   <!-- Create a two column layout for map information. -->
   <section>
-    <a href='path/to/image' class="linkbox">Full screen version</a>
+    <a href='Final Project Layout (High DPI) - MAP 671 - Gantner.png' class="linkbox">Full screen version</a>
 
-    <h1>Title</h1>
-    <h2>Authored by: You</h2>
+    <h1>Peacekeeping and Civilian Violence in the Congo</h1>
+    <h2>Authored by: John Gantner</h2>
 
     <div class="row">
       
       <!-- First column, the left half -->
       <div class="first-column">
-        <p>Info in first column</p>
-        <p>Some other info including the <a href="path/to/geojson">link to the GeoJSON</a></p>
+        <p>The maps provided on this website look to help the viewer understand not only the dynamics of civilian violence in the Democratic Republic of the Congo (DRC), but international responses to it--Specifically those of the United Nations (UN). The UN has sent what it deems as peacekeeping deployments to various conflicts throughout the world since its inception in the 1940s. However, after the Cold War ended, these missions skyrocketed. Like much of the current scholarship regarding UN Peacekeeping, this site aims to demonstrate whether Peacekeepers "flock" to areas with intense violence.</p>
+        <p>The map provide simply provides locations of civilian violence in the DRC--where is there lots of violence aimed at civilians--since 1995. This data was used to create a kernel density heatmap, and then overlays the locations of all UN Peackeeping Deployments from the mission (MINUSCO) since 1998. In this map, it is seen that there is some significant correlating evidence suggesting that deployments do follow violence against civilians. This, at face value, shows that these missions (at least MINUSCO) is following its mandated activities to protect said civilians.</p>
       </div>
       
-      <!-- Second column, the right half -->
-      <div class="column">
-        <!-- Challenge map -->
-        <img class="max-image-width" src="path/to/map.png">
-        <p class="linkbox">Caption</p>
-
         <!-- Challenge photograph -->
-        <img class="max-image-width" src="path/to/image.jpg">
-        <p class="linkbox">Caption</p>
+        <img class="max-image-width" src="Final Project Layout (High DPI) - MAP 671 - Gantner.png">
+        <p class="linkbox">UN Peacekeeping Deployments Overlayed on Civilian Death</p>
 
       </div>
     </div>
 
     <h3>Map details</h3>
-    <p>How was this map made?</p>
+    <p></li>This map was made using QGIS and a number of data sources. Both the Georeferenced Peacekeeping Operation Data and the Civilian Violence Data come from the <a href='https://ucdp.uu.se/'>Uppsala Conflict Data Program.</a> These data provide georeferenced points for PKO deployments and civlian death since 1995. All data, as shown in the maps, follows the covention of EPSG: 4326 and a Scale of 1:9500000.<li></p>
 
     <p>
       University of Kentucky New Maps Plus, Fall 2023.
     </p>
     <hr>
     <ul>
-      <li>Visit my Github account <a href='https://github.com'>@mygithubuser</a> </li>
+      <li>Visit the <a href='https://github.com/johnLgantner/map-671-module-04-final-johnLgantner.git'>Github Repository</a> for this project. </li>
       <li><a href="https://newmapsplus.github.io">New Maps Plus</a></li>
     </ul>
   </section>
